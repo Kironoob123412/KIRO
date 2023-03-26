@@ -1,0 +1,18 @@
+Ejercicio 1
+def sumar_numeros(num1, num2, num3):
+    return num1 + num2 + num3
+
+resultado = sumar_numeros(2, 4, 6)
+print(resultado) # salida: 12
+
+Ejercicio 2
+class Coche:
+    def __init__(self):
+        self.num_puertas = 0
+    
+    def añadir_puerta(self):
+        self.num_puertas += 1
+
+miCoche = Coche()
+miCoche.añadir_puerta()
+print(miCoche.num_puertas) # salida: 1
